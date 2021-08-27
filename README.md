@@ -29,13 +29,13 @@ x User Story #4: Each section element with the class of main-section should also
 
 x User Story #5: The .main-section elements should contain at least 10 p elements total (not each).
 
-User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
+x User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
 
-User Story #7: The .main-section elements should contain at least 5 li items total (not each).
+x User Story #7: The .main-section elements should contain at least 5 li items total (not each).
 
-User Story #8: I can see a nav element with a corresponding id="navbar".
+x User Story #8: I can see a nav element with a corresponding id="navbar".
 
-User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation.
+x User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation.
 
 User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section.
 
