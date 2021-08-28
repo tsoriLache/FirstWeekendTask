@@ -30,4 +30,29 @@
         margin: left 0vw right 20vw;
         padding-right: 5vw;
     }
-  } 
+}
+    /* @media (any-hover: hover) {
+        a:hover {
+          background: yellow;
+        }
+      } */
+      /* @media (resolution: 150dpi) {
+        p {
+            text-decoration-style: solid;
+        }   
+    } */
+    @media only screen and (max-width: 400px) {
+        #main-doc {
+          margin-left: -10px;
+        }
+      
+        code {
+          margin-left: -20px;
+          width: 100%;
+          padding: 15px;
+          padding-left: 10px;
+          padding-right: 45px;
+          min-width: 233px;
+        }
+      }
+      
