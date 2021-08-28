@@ -5,13 +5,13 @@ body{
   text-align: left;
   line-height: 150%;
   font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 main {
   background-image: url("backround.jpg");
-
-  background-image: linear-gradient(to left, rgb(145, 12, 12) );
+  background-image: linear-gradient(to left, rgb(145, 12, 12) );  /* not working */
   background-color: #7ab4f7;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-left:5vw;
  }
  nav {
@@ -19,7 +19,14 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #48ddc4;
+  line-height: 200%;
+
  }
+ table, th, td {
+  border: 1px solid black;
+  width: 10%,60%,10%;
+  text-align: center;
+}
  .content{
    margin-left: 2vw;
  }
@@ -42,12 +49,13 @@ main {
 /* Split the screen in half */
 .split {
     height: 100%;
-    width: 80%;         /* from some reason if i change the width percentage it ruins #user story14 */
+    width: 75%;         /* from some reason if i change the width percentage it ruins #user story14- */
     position: fixed;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
   
   /* Control the left side */
@@ -60,7 +68,7 @@ main {
     right: 0;
   }
   
-  /* media query.. */
+
   
   @media only screen and (max-width: 600px) {
     #navbar {
