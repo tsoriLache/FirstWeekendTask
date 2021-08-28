@@ -1,6 +1,6 @@
 # Html Introductio:
 
-###this project is a small, very basic introduction to Html.
+### this project is a small, very basic introduction to Html.
 
 after you read everything you spouse to have basic understanding of what is Html.
 
