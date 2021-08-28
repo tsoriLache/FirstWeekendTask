@@ -1,11 +1,48 @@
 #navbar{
     position:fixed;
+}
+body{
+  text-align: left;
+  line-height: 150%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
+main {
+  background-image: url("backround.jpg");
+
+  background-image: linear-gradient(to left, rgb(145, 12, 12) );
+  background-color: #7ab4f7;
+  padding-left:5vw;
+ }
+ nav {
+  background-image: url(nav\ backround.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #48ddc4;
+ }
+ .content{
+   margin-left: 2vw;
+ }
+ code{
+  background: #1972bb33;
+  border: 1px solid #ddd;
+  border-left: 3px solid #0a024b;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 65%;
+  overflow: auto;
+  padding: .2em .2em;
+  display: block;
+  word-wrap: break-word;
 }
 /* Split the screen in half */
 .split {
     height: 100%;
-    width: 50%;         /* from some reason if i change the width percentage it ruins #user story14 */
+    width: 80%;         /* from some reason if i change the width percentage it ruins #user story14 */
     position: fixed;
     z-index: 1;
     top: 0;
@@ -22,25 +59,24 @@
   .right {
     right: 0;
   }
+  
+  /* media query.. */
+  
   @media only screen and (max-width: 600px) {
     #navbar {
         display: none;
     } 
     #main-doc{
-        margin: left 0vw right 20vw;
-        padding-right: 5vw;
+        margin: left 20vw right 20vw;
+        padding-right: 30vw;
     }
 }
-    /* @media (any-hover: hover) {
+    @media (any-hover: hover) {
         a:hover {
           background: yellow;
         }
-      } */
-      /* @media (resolution: 150dpi) {
-        p {
-            text-decoration-style: solid;
-        }   
-    } */
+      }
+     
     @media only screen and (max-width: 400px) {
         #main-doc {
           margin-left: -10px;
