@@ -49,7 +49,7 @@ main {
 /* Split the screen in half */
 .split {
     height: 100%;
-    width: 75%;         /* from some reason if i change the width percentage it ruins #user story14- */
+    width: 50%;         /* from some reason if i change the width percentage it ruins #user story14- */
     position: fixed;
     z-index: 1;
     top: 0;
