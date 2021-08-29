@@ -7,8 +7,7 @@ body{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 main {
-  background-image: url("backround.jpg");
-  background-image: linear-gradient(to left, rgb(145, 12, 12) );  /* not working */
+  background-image: url(backround.jpg);
   background-color: #7ab4f7;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,6 +25,9 @@ main {
   border: 1px solid black;
   width: 10%,60%,10%;
   text-align: center;
+}
+a{
+  color: 000;
 }
  .content{
    margin-left: 2vw;
@@ -81,7 +83,8 @@ main {
 }
     @media (any-hover: hover) {
         a:hover {
-          background: yellow;
+          background: rgba(187, 187, 165, 0.562);
+          color: #0a024b;
         }
       }
      
